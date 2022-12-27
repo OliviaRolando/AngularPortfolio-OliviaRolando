@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #212121; */
+  width: 100%;
+  /* height: 100vh; */
+  font-size: 16px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #efefef;
+}
+
+header {
+  background-color: #fcd5ab;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+header a {
+  transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+.container {
+  width: 400px; /* 400px porque las imagenes estan entre ese ancho */
+  margin: 0 auto;
+}
+section article {
+  /* aparece la pagina como una tarjeta */
+  transition: box-shadow 0.3s ease; /*indicar que propiedades de css queremos q sean animandas*/
+  background-color: #fff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0; /*0.25 vertical y 0 horizontal (porque sino se separa la imagen*/
+  cursor: pointer;
+}
+
+section article:hover {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4); /* cuanto se desplaza hacia la derecha, hacia abajo, cuanta difuminacion queremos la sombra*/
+}
+
+section article h2,
+section article p {
+  margin: 1rem;
+}
+
+.login {
+  height: 80vh;
+}
+
+footer {
+  background-color: #222;
+  padding: 3rem;
+  color: #fff;
+}
+footer section {
+  float: right;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
+
+.colorceleste {
+  background-color: #f9d7b2;
+}
+li.vertical {
+  display: block;
+  margin: 0;
+  writing-mode: vertical;
+  padding: 0.5rem 0;
+  font-size: 1.3rem;
+}
+footer.bg-blue {
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  padding: 0.5%;
+}
